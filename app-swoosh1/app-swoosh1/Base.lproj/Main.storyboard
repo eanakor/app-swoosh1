@@ -186,6 +186,9 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="uOv-C4-cTh" eventType="touchUpInside" id="l60-fM-6PK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EW1-1Z-fP7">
                                 <rect key="frame" x="16" y="30" width="47" height="27"/>
@@ -219,6 +222,9 @@
                             <constraint firstItem="MKa-4G-qDJ" firstAttribute="leading" secondItem="0uD-3a-aVp" secondAttribute="leadingMargin" id="xXd-E9-6nm"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="nfe-Ti-bVy" kind="show" identifier="skillVCSegue" id="ICg-Ua-jf0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EsL-iR-Zj3" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="cRK-hr-i8O" userLabel="Exit" sceneMemberID="exit"/>
@@ -269,7 +275,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                         <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Womens">
+                                        <state key="normal" title="Beginner">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -281,7 +287,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                         <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Womens">
+                                        <state key="normal" title="Baller">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>

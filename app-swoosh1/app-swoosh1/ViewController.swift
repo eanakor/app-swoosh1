@@ -9,8 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    var person = "eche"
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
